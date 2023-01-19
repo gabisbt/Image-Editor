@@ -1,0 +1,88 @@
+body {
+    background: linear-gradient(pink, yellow);
+    min-height: 96vh;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Canvass {
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    max-height: 500px;
+    max-width: 500px;
+    margin-top: 10vh;
+    /* border:none; */
+}
+
+.filter-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 15px;
+}
+
+.filter-name {
+    height: 20px;
+    font-size: 18px;
+}
+
+button {
+    background-color: rgb(145, 255, 111);
+    border-radius: 10px;
+    border: 1px solid #18ab29;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: black;
+    font-family: Arial;
+    font-size: 30px;
+    padding: 5px 25px;
+}
+
+span {
+    background-color: #2de6ff;
+    border-radius: 10px;
+    border: 1px solid #18ab29;
+    display: inline-block;
+    color: black;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 16px 31px;
+}
+
+button:hover {
+    background-color: #2a88bf;
+    position: relative;
+}
+
+button:active {
+    background-color: pink;
+}
+
+.but {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
